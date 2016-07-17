@@ -1,3 +1,5 @@
 dtrace/probes.dSYM
 dtrace/probes
 dtrace/probes.h
+temp
+lttng/probes

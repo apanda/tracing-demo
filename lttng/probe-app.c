@@ -4,30 +4,26 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include "probes.h"
 const char* TEMP = "temp";
 
 static void delete_file() {
-    EXAMPLE_UNLINK_FILE(TEMP);
     unlink(TEMP);
 }
 
 static void create_and_write_big() {
-    EXAMPLE_CREATE_AND_WRITE_BIG(TEMP);
     int file = open(TEMP, O_CREAT | O_TRUNC | O_SYNC);
-    write(file, "bloop bloop bloop bloop bloop", 30);
+    write(file, "bloop bloop bloop bloop bloop", 29);
     close(file);
 }
 
 static void create_and_write_small() {    
-    EXAMPLE_CREATE_AND_WRITE_SMALL(TEMP);
     int file = open(TEMP, O_CREAT | O_TRUNC | O_SYNC);
-    write(file, "bloop", 6);
+    write(file, "bloop", 5);
     close(file);
 }
 
 static void choose_and_execute() {
-    int option = arc4random() % 6;
+    int option = random() % 6;
     switch(option) {
         case 0: delete_file(); break;
         case 1: create_and_write_big(); break;
