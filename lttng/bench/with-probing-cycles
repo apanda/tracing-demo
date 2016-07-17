@@ -24,3 +24,47 @@ PID 41671 tracked in session auto-20160717-155059
 UST event benchmark:* created in channel channel0
 Tracing started for session auto-20160717-155059
 Waiting
+360000000 122706833200
+Waiting for data availability.
+Tracing stopped for session auto-20160717-155059
+Session auto-20160717-155059 destroyed
+Session auto-20160717-155146 created.
+Traces will be written in /root/probe-bench
+PID 41870 tracked in session auto-20160717-155146
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-155146
+Waiting
+360000000 129064549624
+Waiting for data availability.
+Tracing stopped for session auto-20160717-155146
+Session auto-20160717-155146 destroyed
+Session auto-20160717-155237 created.
+Traces will be written in /root/probe-bench
+PID 41940 tracked in session auto-20160717-155237
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-155237
+Waiting
+360000000 136055287228
+Waiting for data availability.
+Tracing stopped for session auto-20160717-155237
+Session auto-20160717-155237 destroyed
+Session auto-20160717-155330 created.
+Traces will be written in /root/probe-bench
+PID 42014 tracked in session auto-20160717-155330
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-155330
+Waiting
+360000000 133799078792
+Waiting for data availability.
+Tracing stopped for session auto-20160717-155330
+Session auto-20160717-155330 destroyed
+Session auto-20160717-155422 created.
+Traces will be written in /root/probe-bench
+PID 42082 tracked in session auto-20160717-155422
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-155422
+Waiting
+360000000 131950595776
+Waiting for data availability.
+Tracing stopped for session auto-20160717-155422
+Session auto-20160717-155422 destroyed
