@@ -1,6 +1,11 @@
 dtrace/probes.dSYM
 dtrace/probes
 dtrace/probes.h
+dtrace/bench/noprobes.dSYM
+dtrace/bench/probes.dSYM
+dtrace/bench/probes.h
+dtrace/bench/noprobes
+dtrace/bench/probes
 temp
 lttng/probes
 lttng/bench/noprobe-bench
