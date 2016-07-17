@@ -1,0 +1,26 @@
+Session auto-20160717-154916 created.
+Traces will be written in /root/probe-bench
+PID 41422 tracked in session auto-20160717-154916
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-154916
+Waiting
+360000000 125991617344
+Waiting for data availability.
+Tracing stopped for session auto-20160717-154916
+Session auto-20160717-154916 destroyed
+Session auto-20160717-155006 created.
+Traces will be written in /root/probe-bench
+PID 41519 tracked in session auto-20160717-155006
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-155006
+Waiting
+360000000 136549591956
+Waiting for data availability.
+Tracing stopped for session auto-20160717-155006
+Session auto-20160717-155006 destroyed
+Session auto-20160717-155059 created.
+Traces will be written in /root/probe-bench
+PID 41671 tracked in session auto-20160717-155059
+UST event benchmark:* created in channel channel0
+Tracing started for session auto-20160717-155059
+Waiting

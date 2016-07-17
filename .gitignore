@@ -3,3 +3,5 @@ dtrace/probes
 dtrace/probes.h
 temp
 lttng/probes
+lttng/bench/noprobe-bench
+lttng/bench/probe-bench
