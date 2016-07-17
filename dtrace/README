@@ -1,0 +1,7 @@
+This needs OS X (or FreeBSD)
+
+```
+sudo dtrace -n 'syscall:*:write:entry { @[execname] = count(); }' # See where the write are coming from
+sudo dtrace -s timeline.d -p `pidof probe` # Timeline
+sudo dtrace -s histogram.d -p `pidof probe` # Histogram
+```
