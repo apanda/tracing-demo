@@ -10,6 +10,6 @@ lttng enable-event -u "probe:*"
 lttng add-context -k -t pid -t procname
 lttng add-context -u -t procname
 lttng start
-sleep 30
+sleep 15
 lttng stop
 lttng destroy

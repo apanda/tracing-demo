@@ -10,6 +10,7 @@ def add_trace_directories(directory, trace_collection):
         if 'metadata' in filenames:
             if trace_collection.add_trace(dirname, "ctf") is None:
                 raise Exception("Could not add directory %s"%dirname)
+
 def histogram(trace_collection):
     hist = defaultdict(lambda: 0)
     for ev in trace_collection.events:

@@ -4,7 +4,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-const char* TEMP = "slowpoke";
+const char* TEMP = "slowpoke-t";
 
 static void delete_file() {
     unlink(TEMP);
