@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
     printf("Hello\n");
     while(1) {
         choose_and_execute();
-        sleep(15);
+        sleep(1);
     }
     return 1;
 }
